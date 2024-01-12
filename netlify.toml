@@ -1,9 +1,2 @@
-[build]
-  command = "npm run build"  # Asegúrese de ajustar esto según sus necesidades
-
 [functions]
-  directory = "functions"  # Ruta al directorio de funciones
-  command = "index.handler"  # Comando para ejecutar la función
-
-[dev]
-  # ... (otras configuraciones)
+ command = { "index.handler" = "npm run build" }
