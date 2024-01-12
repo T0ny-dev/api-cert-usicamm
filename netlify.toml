@@ -1,0 +1,4 @@
+[[functions]]
+  directory = "functions"
+  command = "index.handler"
+  # ... (otras configuraciones)
