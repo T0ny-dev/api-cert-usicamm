@@ -2,7 +2,7 @@
   command = "npm run build"  # Asegúrese de ajustar esto según sus necesidades
 
 [functions]
-  command = { directory = "functions", handler = "index.handler" }
+   directory = "my-functions"
 
 
 [dev]
