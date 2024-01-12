@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 });
 
 // Ruta para obtener todos los certificados
-app.get('/.netlify/functions/certificates', (req, res) => {
+app.get('/certificates', (req, res) => {
   const certificates = [];
 
   fs.createReadStream('data.csv')

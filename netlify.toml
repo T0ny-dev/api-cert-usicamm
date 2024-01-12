@@ -1,9 +1,0 @@
-[functions]
- directory = "functions"
- included_files = ["**/*.js"]
- node_bundler = "esbuild"
- esbuild_bundle = true
- esbuild_target = "es2022"
- esbuild_minify = true
- esbuild_plugins = ["@netlify/esbuild-plugin"]
- command = { "myFunction" = "npm run build" }
